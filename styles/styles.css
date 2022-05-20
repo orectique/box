@@ -293,7 +293,7 @@
     left: 5px;
   }
   .label::before{
-    content:"Pet Transport \A from: Orectique \A to: Muffin";
+    content: "Cat Transport \A from: Orectique \A to: Muffin";
     font-family: sans-serif;
     font-size: .7rem;
     transform: scalex(-1);
