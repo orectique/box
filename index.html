@@ -35,21 +35,14 @@
       <div class="cover-front"></div>
     </div>
     <div class="content">
-      <div class="pikachu">
-        <div class="ear left"></div>
-        <div class="ear"></div>
-        <div class="head">
-          <div class="eye"></div>
-          <div class="eye"></div>
-          <div class="nouse"></div>
-          <div class="mouth"></div>
-        </div>
-      </div>
-
-      <div class='lolcat'>
-        <div class='body'></div>
-      </div>
+      <div id='character'></div>
     </div>
 </body>
+<script>
+  var aminals = ['lolcat', 'lolcat2', 'doge', 'monke']
 
+const aminal = aminals[Math.floor(Math.random() * aminals.length)];
+
+document.getElementById("character").className = aminal;
+</script>
 </html>
