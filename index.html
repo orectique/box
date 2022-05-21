@@ -3,6 +3,7 @@
 <head>
   <title>box.</title>
   <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -39,10 +40,6 @@
     </div>
 </body>
 <script>
-  var aminals = ['lolcat', 'lolcat2', 'doge', 'monke']
-
-const aminal = aminals[Math.floor(Math.random() * aminals.length)];
-
-document.getElementById("character").className = aminal;
+$.getScript('./scripts/script.js')
 </script>
 </html>
