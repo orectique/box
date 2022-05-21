@@ -302,6 +302,7 @@
     position: absolute;
     right: 3px;
     top: 3px;
+    
   }
   .label::after{
     height: 15px;
@@ -322,4 +323,13 @@
     background-image: url(../assets/Smiling-Cat-removebg-preview.png);
     background-size: cover;
   }
+
+  .lolcat2{
+    height: calc(var(--icon-size) * 5.8);
+    width: calc(var(--icon-size) * 6);
+    position: absolute;
+    background-image: url(../assets/standingKitten-removebg-preview.png);
+    background-size: cover;
+  }
+
 
